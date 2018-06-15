@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Growtopia Quiz</title>
+		<meta name="description" content="Easy, Medium and Hard Quiz for Growtopians">
+		<meta name="author" content="Julius Magpayo">
+	 <link rel="stylesheet" href="main.css" type="text/css" charset="utf-8" />
+	 <script type="text/javascript" src="script2.js"></script>
+	 <link rel="icon" type="image/png" href="gq.png" />
+	 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+	<div class="bg">
+        </div>
+    <div class="my_content" >
+	<center>
+	<img src="logor.gif">
+	<table style="width:583px">
+			<tr>
+			  <td>
+				<div>
+					<img class="question" src="5.png" height="100px" width="100px"/>
+
+					<ul>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label id="correctString1">Crimson Wings</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="1">
+					<label>Crimson Eagle Wings</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Eagle Wings</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Parrot Wings</label>
+					</ul>
+				</div>
+			  </td>
+			  <td>
+				<div>
+					<img class="question" src="6.png" height="100px" width="100px"/>
+
+					<ul>
+					<input class="answer" type="radio" name="q2" value="1">
+					<label>Diamond Lock</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label id="correctString2">World Lock</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Blue Lock</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Crystal Lock</label>
+					</ul>
+				</div>
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+				<div>
+					<img class="question" src="7.png" height="100px" width="100px"/>
+
+					<ul>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>Score Counter</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="1">
+					<label id="correctString3">Gems</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>Coins</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>Points</label>
+					</ul>
+				</div>
+			  </td>
+			  <td>
+				<div>
+					<img class="question" src="8.png" height="100px" width="100px"/>
+
+					<ul>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>Dark Background</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label id="correctString4">Dark Background</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>Mining Background</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="1">
+					<label>Cave Background</label>
+					</ul>
+				</div>
+			  </td>
+			</tr>
+			</table>
+			<br>
+			<div class="submitter">
+				  <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+				  type="submit" value="Submit" />
+			</div>
+			<!--show score upon submit-->
+			<div>
+				<h2 class="quizScore" id="userScore"></h2>
+			</div>
+		<!--show only wrong answers on submit-->
+			<div class="quizAnswers" id="correctAnswer1"></div>
+				<div class="quizAnswers" id="correctAnswer2"></div>
+			<div class="quizAnswers" id="correctAnswer3"></div>
+			<div class="quizAnswers" id="correctAnswer4"></div>
+
+			</div>
+			
+	</div>
+		</center>
+	</div>
+		</body>
+</html>
