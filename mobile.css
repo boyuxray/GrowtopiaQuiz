@@ -77,9 +77,6 @@ input.quizSubmit[type="submit"]:hover {
 }
 
 table {
-width: 90%; /* Will be 90% of screen width */
-       padding: 0px 10px; /* Gives some spacing on the left and right side between the content of the box (the text) and box itself */
-       margin-top: 30px; /*I had you get rid of the <br> tags so adding a margin-top class to the div will create the space you wanted */
   background-color: rgba(46, 187, 234, 0.3);
 	  border:1px solid #BDBDBD;
   border-radius:5px;
