@@ -82,6 +82,8 @@ table {
   padding-left:5px;
 	padding-right:7px;
   box-shadow: rgba(0, 0, 0, 0.498039) 1px 0px 1px 0px;
+   width: 100%; /*stays 100% of width of page*/
+    max-width: 400px; /*Never gets bigger than 400px on desktop */
   
 }
 
@@ -95,7 +97,7 @@ tr {
 
 td {
 
-}
+} 
 
 .submitter {
 	  width:85px;
