@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Growtopia Quiz</title>
+		<meta name="description" content="Easy, Medium and Hard Quiz for Growtopians">
+		<meta name="author" content="Julius Magpayo">
+	 <link rel="stylesheet" href="main.css" type="text/css" charset="utf-8" />
+	 <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="mobile.css" />
+	 <script type="text/javascript" src="script6.js"></script>
+	 <link rel="icon" type="image/png" href="gq.png" />
+	 <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+	<div class="bg">
+        </div>
+    <div class="my_content" >
+	<center>
+	<div class="follow">
+	<img src="logor.gif">
+	</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<table>
+			<tr>
+			  <td>
+				<div>
+					<p>Who Owns Growtopia?</p>
+
+					<ul>
+					<input class="answer" type="radio" name="q1" value="1">
+					<label id="correctString1">Ubisoft</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Hamumu</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>Robinson Tech.</label>
+					<br>
+					<input class="answer" type="radio" name="q1" value="0">
+					<label>VooDoo</label>
+					</ul>
+				</div>
+			  </td>
+			  <td>
+				<div>
+					<p> | Who Created Growtopia?
+
+					<ul>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Ubisoft</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="1">
+					<label id="correctString2">Seth & Hamumu</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Seth</label>
+					<br>
+					<input class="answer" type="radio" name="q2" value="0">
+					<label>Hamumu</label>
+					</ul>
+				</div>
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+				<div>
+					<p>How many World Locks<br>
+					are in a Diamond Lock?</p>
+
+					<ul>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>50</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>20</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="1">
+					<label id="correctString3">100</label>
+					<br>
+					<input class="answer" type="radio" name="q3" value="0">
+					<label>10</label>
+					</ul>
+				</div>
+			  </td>
+			  <td>
+				<div>
+					<p> | Beginner's world</p>
+
+					<ul>
+					<input class="answer" type="radio" name="q4" value="1">
+					<label id="correctString4">Start</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>MyWorld</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>GamingBeans</label>
+					<br>
+					<input class="answer" type="radio" name="q4" value="0">
+					<label>Growtopia</label>
+					</ul>
+				</div>
+			  </td>
+			</tr>
+			</table>
+			<br>
+			<center>
+			<div class="submitter">
+				  <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+				  type="submit" value="Submit" />
+			</div>
+			<!--show score upon submit-->
+			<div>
+				<h2 class="quizScore" id="userScore"></h2>
+			</div>
+		<!--show only wrong answers on submit-->
+			<div class="quizAnswers" id="correctAnswer1"></div>
+				<div class="quizAnswers" id="correctAnswer2"></div>
+			<div class="quizAnswers" id="correctAnswer3"></div>
+			<div class="quizAnswers" id="correctAnswer4"></div>
+
+			</div>
+			</center>
+			
+	</div>
+		</center>
+	</div>
+		</body>
+</html>
