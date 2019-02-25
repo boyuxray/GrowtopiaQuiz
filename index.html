@@ -10,6 +10,27 @@
 	 <script type="text/javascript" src="script.js"></script>
 	 <link rel="icon" type="image/png" href="gq.png" />
 	 <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		}
+		</script>
 	</head>
 	<body>
 	<div class="bg">
@@ -31,6 +52,24 @@
 	<h2>How To Save My Level</h2>
 	<p>The easiest way to save your progress is to bookmark it</p>
 	<p>Your bookmark sign is probably "✰" or just remember the url/link of the level</p>
+		<p>Select Level Below:</p>
+		<div class="dropdown">
+		  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <a href="/easypart">Home</a>
+			  <a href="/easypart1">Easy Level 1</a>
+			   <a href="/easypart2">Easy Level 2</a>
+			   <a href="/easypart3">Easy Level 3</a>
+			   <a href="/easypart4">Easy Level 4</a>
+			   <a href="/easypart5">Easy Level 5</a>
+			   <a href="/easypart6">Easy Level 6</a>
+			   <a href="/easypart7">Easy Level 7</a>
+			   <a href="/easypart8">Easy Level 8</a>
+			   <a href="/easypart9">Easy Level 9</a>
+			   <a href="/easypart10">Easy Level 10</a>
+
+		  </div>
+		</div>
 	<hr width="50%">
 	<br>
 	
